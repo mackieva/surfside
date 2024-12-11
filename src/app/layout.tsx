@@ -3,7 +3,7 @@ import './globals.css';
 import Header from './ui/Header';
 
 export const metadata: Metadata = {
-	title: 'Surfside Beach Gets',
+	title: 'Surfside Beach Needs',
 	description: 'Checklist for the beach trip 2025',
 };
 
