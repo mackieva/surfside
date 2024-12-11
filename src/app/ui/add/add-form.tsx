@@ -10,17 +10,18 @@ export default function AddForm() {
 				<input
 					type='text'
 					id='item-name'
+					name='item-name'
 					className='peer block w-full rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2'
 				/>
 			</div>
 			<div className='mb-3'>
-				<label htmlFor='item-price' className='mb-2 block text-sm font-medium'>
-					Price
+				<label htmlFor='item-cost' className='mb-2 block text-sm font-medium'>
+					Cost
 				</label>
 				<input
 					type='number'
-					name='item-price'
-					id='item-price'
+					name='item-cost'
+					id='item-cost'
 					className='peer block w-full rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2'
 				/>
 			</div>
@@ -31,6 +32,7 @@ export default function AddForm() {
 				<input
 					type='text'
 					id='item-link'
+					name='item-link'
 					className='peer block w-full rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2'
 				/>
 			</div>
