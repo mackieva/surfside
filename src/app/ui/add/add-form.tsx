@@ -1,8 +1,6 @@
-import { addItem } from '@/app/lib/actions';
-
 export default function AddForm() {
 	return (
-		<form className='flex flex-col' action={addItem}>
+		<form className='flex flex-col'>
 			<div className='mb-3'>
 				<label htmlFor='item-name' className='mb-2 block text-sm font-medium'>
 					Name
