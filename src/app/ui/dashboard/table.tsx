@@ -10,10 +10,12 @@ export default function Table() {
 				</tr>
 			</thead>
 			<tbody>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
 			</tbody>
 		</table>
 	);
